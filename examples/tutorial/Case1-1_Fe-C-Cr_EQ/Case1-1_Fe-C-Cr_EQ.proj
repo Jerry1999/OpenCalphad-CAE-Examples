@@ -1,0 +1,70 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2/Eq3/Eq4",
+    "Eq number before Output": "Eq 3",
+    "Eq1": {
+      "Compositions": "98.9/0.1/1.0",
+      "Elements": "FE/C/CR",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "98.9/0.1/1.0",
+      "Eq2 Elem": "FE/C/CR",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1200.0"
+    },
+    "Eq3": {
+      "Eq3 Checked": "True",
+      "Eq3 Comp": "98.8/0.2/1.0",
+      "Eq3 Elem": "FE/C/CR",
+      "Eq3 Pressure": "100000.0",
+      "Eq3 Systemsize": "1.0",
+      "Eq3 Temp": "1200.0"
+    },
+    "Eq4": {
+      "Eq4 Checked": "True",
+      "Eq4 Comp": "98.9/0.1/1.0",
+      "Eq4 Elem": "FE/C/CR",
+      "Eq4 Pressure": "100000.0",
+      "Eq4 Systemsize": "1.0",
+      "Eq4 fixphase": "0/BCC_A2/0.0"
+    },
+    "base element": "FE",
+    "calculation type": "single eq",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.1",
+      "CR": "1.0",
+      "FE": "98.9"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent CR"
+    ],
+    "list1": {
+      "list1 Checked": "True",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mass fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "list_list": "List1",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "False",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "project name": "Case1-1_Fe-C-Cr_EQ",
+    "temperature unit": "Kelvin"
+  }
+}

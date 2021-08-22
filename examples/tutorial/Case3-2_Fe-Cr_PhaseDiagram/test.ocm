@@ -1,0 +1,154 @@
+@$ This macro is created by OpenCalphad CAE 0.0.8
+@$ 22-Aug-2021 (13:35:14.901224)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb steel1.TDB
+CR FE
+
+
+@$ Eq 1
+set condition T = 700
+set condition P = 100000
+set condition n = 1.0
+set condition x(CR)=0.2
+
+c e
+
+list result 4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 T 300.0 2000.0 10.0
+
+map
+n
+
+
+@$ Plot fig1: Isopleth of phase diagram
+plot
+x(*,CR)
+T
+axis_labels X
+Composition (mole fraction CR)
+axis_labels Y
+Temperature_K
+title fig 1
+output fig1
+graphics 5 fig1
+render
+
+
+
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+
+@$ Eq 2
+set condition T = 1400
+set condition P = 100000.0
+set condition n = 1.0
+set condition x(CR)=0.1
+
+c e
+
+list result 4
+
+list /output=Eq2.txt
+results
+4
+
+list /output=Eq2_for_table.txt
+results
+4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 T 300.0 2000.0 10.0
+
+map
+n
+
+
+@$ Plot fig2: Isopleth of phase diagram
+plot
+x(*,CR)
+T
+axis_labels X
+Composition (mole fraction CR)
+axis_labels Y
+Temperature_K
+title fig 2
+output fig2
+graphics 5 fig2
+render
+
+
+
+
+
+@$ Eq 3
+set condition T = 1900
+set condition P = 100000.0
+set condition n = 1.0
+set condition x(CR)=0.2
+
+c e
+
+list result 4
+
+list /output=Eq3.txt
+results
+4
+
+list /output=Eq3_for_table.txt
+results
+4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 T 300.0 2000.0 10.0
+
+map
+n
+
+
+@$ Plot fig3: Isopleth of phase diagram
+plot
+x(*,CR)
+T
+axis_labels X
+Composition (mole fraction CR)
+axis_labels Y
+Temperature_K
+title fig 3
+output fig3
+graphics 5 fig3
+text 0.10217 1985.85 0.9 0 y
+
+text n 0.39254 1504.76 0.9 0 y
+
+text n 0.01188 1378.92 0.9 0 y
+
+text n 0.45449 987.968 0.9 0 y
+
+render
+
+
+
+
+exit Y

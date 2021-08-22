@@ -1,0 +1,94 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2",
+    "Eq number before Output": "Eq 2",
+    "Eq1": {
+      "Compositions": "99.9/0.1",
+      "Elements": "FE/C",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "800"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "99.9/0.1",
+      "Eq2 Elem": "FE/C",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1900"
+    },
+    "base element": "FE",
+    "calculation type": "property diagram",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.1",
+      "FE": "99.9"
+    },
+    "element composition order": [
+      "Mass percent C"
+    ],
+    "fig2_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Amount of phase",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "NPM(LIQUID#1)/NPM(BCC-A2)/NPM(FCC-A1)/NPM(GRAPHITE)",
+      "legend selection": "1/1/1/1",
+      "others": "NO/NO/NO/YES/left/top",
+      "show axis ticks": "False",
+      "title": "NO/OpenCalphad   6.030/2021-08-01/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 2/T=X,  P=100000, N=1, W(C)=.001",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, K//",
+      "y axis": "Mole fraction of phase;//"
+    },
+    "fig_note": "Temperature vs. Amount of phase/Temperature vs. Amount of phase",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig2_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2",
+    "plot1": {
+      "axis x max": "2000.0",
+      "axis x min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mole fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "plot2": {
+      "axis x max": "2000.0",
+      "axis x min": "300.0",
+      "plot2 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mole fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "project name": "Case2-1_Fe-0dot1%C_PropertyDiagram",
+    "property diagram": {
+      "property diagram after eachEq": "True",
+      "step extra variable": "Mass percent C/Mass percent C",
+      "step normal": "True",
+      "step variable": "Temperature/Temperature",
+      "variable max": "2000.0/2000.0",
+      "variable min": "300.0/300.0",
+      "variable step": "10.0/10.0"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

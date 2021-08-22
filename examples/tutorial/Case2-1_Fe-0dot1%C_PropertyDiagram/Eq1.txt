@@ -1,0 +1,32 @@
+
+%%%%%%%%%% OC output written: 2021-08-01  00h08
+
+Output for equilibrium:   1, DEFAULT_EQUILIBRIUM          2021.08.01
+
+ *** The results listed below may be inconsistent with the current conditions
+
+Conditions .................................................:
+  1:T=800, 2:P=100000, 3:N=1, 4:W(C)=.001
+ Degrees of freedom are   0
+
+Some global data, reference state SER ......................:
+T=    800.00 K (   526.85 C), P=  1.0000E+05 Pa, V=  7.2291E-06 m3
+N=   1.0000E+00 moles, B=   5.5644E+01 g, RT=   6.6516E+03 J/mol
+G= -2.98056E+04 J, G/N=-2.9806E+04 J/mol, H= 1.5550E+04 J, S= 5.669E+01 J/K
+
+Some data for components ...................................:
+Component name    Moles      Mass-fr  Chem.pot/RT  Activities  Ref.state
+C                 4.6327E-03  0.00100 -1.2360E+00  2.9055E-01  SER (default)   
+FE                9.9537E-01  0.99900 -4.4961E+00  1.1153E-02  SER (default)   
+
+Some data for phases .......................................:
+Name                Status Mass       Volume    Form.Units Cmp/FU dGm/RT  Comp:
+BCC_A2.................. E  5.559E-02  7.20E-06  9.95E-01    1.00  0.00E+00  W:
+ FE     9.99994E-01  C      6.18352E-06
+
+GRAPHITE................ E  5.530E-05  2.47E-08  4.60E-03    1.00  0.00E+00  W:
+ C      1.00000E+00  FE     0.00000E+00
+
+
+ *** The results listed above may be inconsistent with the current conditions
+

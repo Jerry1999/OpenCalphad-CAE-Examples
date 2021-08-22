@@ -1,0 +1,63 @@
+@$ This macro is created by OpenCalphad CAE 0.0.8
+@$ 22-Aug-2021 (14:04:01.408192)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb steel7.TDB
+C CR FE
+
+
+@$ Eq 1
+set condition T = 1198.15
+set condition P = 100000
+set condition n = 1.0
+set condition w(C)=0.01
+set condition w(CR)=0.13
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 w(C) 0.0 0.02 
+
+set axis 2 T 773.15 1873.15 10.0
+
+set ref C GRAPHITE * 1E5
+map
+
+
+@$ Plot fig1: Isopleth of phase diagram
+plot
+w%(C)
+T_C
+scale
+x
+N
+0.0
+2.0
+axis_labels Y
+Temperature_°C
+title fig 1
+output fig1
+render
+
+
+
+
+exit Y

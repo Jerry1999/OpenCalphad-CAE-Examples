@@ -1,0 +1,76 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "99.0/1.0",
+      "Elements": "FE/C",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "800"
+    },
+    "base element": "FE",
+    "calculation type": "property diagram",
+    "database name": "steel1",
+    "element composition": {
+      "C": "1.0",
+      "FE": "99.0"
+    },
+    "element composition order": [
+      "Mass percent C"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Amount of phase",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "NPM(LIQUID)/NPM(BCC-A2)/NPM(FCC-A1)/NPM(GRAPHITE)",
+      "legend selection": "1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.030/2021-07-31/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 1/T=X,  P=100000, N=1, W(C)=.01",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, K//",
+      "y axis": "Mole fraction of phase;//"
+    },
+    "fig_note": "Temperature vs. Amount of phase",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig1_mod",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "plot1": {
+      "axis x max": "2000.0",
+      "axis x min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mole fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "project name": "Case2-1_Fe-1%C_PropertyDiagram",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step normal": "True",
+      "step variable": "Temperature",
+      "variable max": "2000.0",
+      "variable min": "300.0",
+      "variable step": "10.0"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

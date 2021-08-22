@@ -1,0 +1,58 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "98.9/0.1/1.0",
+      "Elements": "FE/C/CR",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000"
+    },
+    "base element": "FE",
+    "calculation type": "single eq",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.1",
+      "CR": "1.0",
+      "FE": "98.9"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent CR"
+    ],
+    "list1": {
+      "list1 Checked": "True",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mass fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "list2": {
+      "list2 Checked": "True",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Gibbs energy; J",
+      "y axis variable": "Gibbs energy"
+    },
+    "list3": {
+      "list3 Checked": "True",
+      "y axis extra variable": "system",
+      "y axis unit": "Heat capacity; J|g|K",
+      "y axis variable": "Heat capacity"
+    },
+    "list_list": "List1/List2/List3",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "False",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "project name": "Case1-2_Fe-C-Cr_EQ",
+    "temperature unit": "Kelvin"
+  }
+}

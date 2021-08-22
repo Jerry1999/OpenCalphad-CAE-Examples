@@ -1,0 +1,89 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "1.0/13.0/86.0",
+      "Elements": "C/CR/FE",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "925.0"
+    },
+    "base element": "FE",
+    "calculation type": "phase diagram",
+    "database name": "steel7",
+    "element composition": {
+      "C": "1.0",
+      "CR": "13.0",
+      "FE": "86.0"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent CR"
+    ],
+    "fig_note": "Isopleth phase diagram",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "True",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "False",
+      "phasediagram after eachEq": "False",
+      "step variable X": "Mass percent C",
+      "step variable X max": "2",
+      "step variable X min": "0.0",
+      "step variable X step": "",
+      "step variable Y": "Temperature",
+      "step variable Y max": "1600",
+      "step variable Y min": "500",
+      "step variable Y step": "10.0",
+      "tenary phase diagram": "False"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "2",
+      "axis x min": "0.0",
+      "axis y max": "1600",
+      "axis y min": "500",
+      "plot1 Checked": "True",
+      "x axis variable": "Mass percent C",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case3-5_Fe-C-Cr_PhaseDiagram",
+    "reference state for components": {
+      "activate reference phase": "True",
+      "reference elements": "None/C/None",
+      "reference phases": "/GRAPHITE/",
+      "reference pressures": "/1E5/",
+      "reference temperaures": "/*/",
+      "set ref": "False/True/False"
+    },
+    "report": {
+      "composition added": "True",
+      "database added": "True",
+      "date added": "True",
+      "file name": "report.pdf",
+      "margin bottom": "2.5",
+      "margin left": "2.5",
+      "margin right": "2.5",
+      "margin top": "2.5",
+      "pagesize": "A4",
+      "report equilibrium": "Eq 1",
+      "report equilibrium selection": "1",
+      "report figure": "fig1",
+      "report figure selection": "1",
+      "title": "Report of OpenCalphad Calculation"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Celsius"
+  }
+}

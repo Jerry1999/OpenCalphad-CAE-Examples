@@ -1,0 +1,62 @@
+@$ This macro is created by OpenCalphad CAE
+@$ 01-Aug-2021 (13:51:59.349755)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb hogas.TDB
+H O
+
+
+@$ Eq 1
+set condition T = 3000
+set condition P = 100000
+set condition n = 3
+set condition x(O)=0.333
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 T 1000 6000 10.0
+
+
+
+
+step
+normal
+
+
+
+
+
+
+
+@$ Plot 1
+plot
+T
+y(GAS,*)
+title fig 1
+output fig1
+axis_labels X
+Temperature_K
+axis_labels Y
+Site fraction of all constituents in GAS
+render
+
+exit Y

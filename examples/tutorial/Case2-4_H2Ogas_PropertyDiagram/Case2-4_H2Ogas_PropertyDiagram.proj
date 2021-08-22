@@ -1,0 +1,93 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.333/0.667",
+      "Elements": "O/H",
+      "Pressure": "100000",
+      "Systemsize": "3",
+      "Temperature": "3000"
+    },
+    "base element": "H",
+    "calculation type": "property diagram",
+    "database name": "hogas",
+    "element composition": {
+      "H": "0.667",
+      "O": "0.333"
+    },
+    "element composition order": [
+      "Mole fraction O"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Site fraction",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "Y(GAS,H)/Y(GAS,H2)/Y(GAS,H2O1)/Y(GAS,O)/Y(GAS,O2)/Y(GAS,O3)",
+      "legend selection": "1/1/1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.031/2021-08-16/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 1/T=X,  P=100000, N=3, X(O)=0.333",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, K//",
+      "y axis": "Site fraction of all constituents in GAS//"
+    },
+    "fig_note": "Temperature vs. Site fraction",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "True",
+      "Table": "True"
+    },
+    "mass unit": "Mole fraction",
+    "mod output names": "fig1_mod",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "plot1": {
+      "axis x max": "6000",
+      "axis x min": "1000",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis component": "all",
+      "y axis extra variable": "GAS:G",
+      "y axis unit": "Site fraction",
+      "y axis variable": "Site fraction"
+    },
+    "project name": "Case2-4_H2Ogas_PropertyDiagram",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step normal": "True",
+      "step variable": "Temperature",
+      "variable max": "6000",
+      "variable min": "1000",
+      "variable step": "10.0"
+    },
+    "report": {
+      "composition added": "True",
+      "database added": "True",
+      "date added": "True",
+      "file name": "report.pdf",
+      "margin bottom": "2.5",
+      "margin left": "2.5",
+      "margin right": "2.5",
+      "margin top": "2.5",
+      "pagesize": "A4",
+      "report equilibrium": "Eq 1",
+      "report equilibrium selection": "1",
+      "report figure": "fig1/fig1_mod",
+      "report figure selection": "0/1",
+      "title": "Report of OpenCalphad Calculation"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

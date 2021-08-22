@@ -1,0 +1,124 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "18.0/8.0/74.0",
+      "Elements": "CR/NI/FE",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1800"
+    },
+    "advanced application": {
+      "calculation": "Scheil-Gulliver Solidification",
+      "property diagram after eachEq": "False",
+      "start temperature": "1800",
+      "step scheil": "True",
+      "step variable": "Temperature",
+      "variable max": "1800",
+      "variable min": "300.0",
+      "variable step": "2.0"
+    },
+    "base element": "FE",
+    "calculation type": "advanced application",
+    "database name": "saf2507",
+    "element composition": {
+      "CR": "18.0",
+      "FE": "74.0",
+      "NI": "8.0"
+    },
+    "element composition order": [
+      "Mass percent CR",
+      "Mass percent NI"
+    ],
+    "fig10_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Equilibrium: Mole fraction of phase vs. Temperature",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "NPM(LIQUID#1)/NPM(BCC-A2)/NPM(FCC-A1)",
+      "legend selection": "1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.031/2021-08-17/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 10/T=X,  P=100000, N=1, W(CR)=0.18, W(NI)=.08",
+      "title fonts": " Arial/10 ",
+      "x axis": "Mole fraction of phase,//",
+      "y axis": "Temperature; K//"
+    },
+    "fig10_mod_1": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Equilibrium: Mole fraction of phase vs. Temperature",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "NPM(LIQUID#1)/NPM(BCC-A2)/NPM(FCC-A1)",
+      "legend selection": "1/1/1",
+      "others": "YES/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.031/2021-08-17/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 10/T=X,  P=100000, N=1, W(CR)=0.18, W(NI)=.08",
+      "title fonts": " Arial/10 ",
+      "x axis": "Mole fraction of phase,//",
+      "y axis": "Temperature; K//"
+    },
+    "fig_note": "Mole fraction of solid vs. Temperature/Equilibrium: Mole fraction of phase vs. Temperature/Mole fraction of solid vs. Composition of phase/Equilibrium: Mole fraction of solid vs. Temperature/Comparison between Equilibrium and Scheil: Mole fraction of solid vs. Temperature",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "True",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig10_mod/fig10_mod_1",
+    "opencalphad database": "True",
+    "output names": "fig1/fig10/fig2/fig11/fig12",
+    "plot1": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction of solid",
+      "y axis component": "",
+      "y axis extra variable": "",
+      "y axis unit": "",
+      "y axis variable": "Temperature"
+    },
+    "plot2": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot2 Checked": "True",
+      "x axis variable": "Mole fraction of solid",
+      "y axis component": "CR",
+      "y axis extra variable": "LIQUID:L",
+      "y axis unit": "Mass fraction",
+      "y axis variable": "Composition of phase"
+    },
+    "project name": "Case5-2_Fe-Cr-Ni_Scheil_Calculation",
+    "report": {
+      "composition added": "True",
+      "database added": "True",
+      "date added": "True",
+      "file name": "report.pdf",
+      "margin bottom": "2.5",
+      "margin left": "2.5",
+      "margin right": "2.5",
+      "margin top": "2.5",
+      "pagesize": "A4",
+      "report equilibrium": "Eq 1",
+      "report equilibrium selection": "1",
+      "report figure": "fig1/fig10/fig2/fig11/fig12/fig10_mod/fig10_mod_1",
+      "report figure selection": "1/1/1/1/1/1/1",
+      "title": "Report of OpenCalphad Calculation"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

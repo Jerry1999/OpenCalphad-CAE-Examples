@@ -1,0 +1,128 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2",
+    "Eq1": {
+      "Compositions": "99.9/0.1",
+      "Elements": "FE/C",
+      "Eq1 phase status activated": "False",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "90.0/10.0",
+      "Eq2 Elem": "FE/C",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1400",
+      "Eq2 phase status activated": "True"
+    },
+    "base element": "FE",
+    "calculation type": "phase diagram",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.1",
+      "FE": "99.9"
+    },
+    "element composition order": [
+      "Mass percent C"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Binary phase diagram",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "W%(LIQUID,C)/W%(BCC-A2,C)/W%(FCC-A1,C)/W%(GRAPHITE,C)",
+      "legend selection": "1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.030/2021-08-08/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 1/T=Y,  P=100000, N=1, W(C)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "Composition (wt% C)//",
+      "y axis": "Temperature; K//"
+    },
+    "fig2_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Binary phase diagram",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "W%(LIQUID#1,C)/W%(BCC-A2,C)/W%(CEMENTITE,C)/W%(FCC-A1,C)",
+      "legend selection": "1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.030/2021-08-08/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 2/T=Y,  P=100000, N=1, W(C)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "Composition (wt% C)//",
+      "y axis": "Temperature; K//"
+    },
+    "fig_note": "Binary phase diagram/Binary phase diagram",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig1_mod/fig2_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "True",
+      "phasediagram after eachEq": "True",
+      "step variable X": "Mass percent C/Mass percent C",
+      "step variable X max": "100.0/20",
+      "step variable X min": "0.0/0.0",
+      "step variable X step": "/",
+      "step variable Y": "Temperature",
+      "step variable Y max": "2000.0/2000.0",
+      "step variable Y min": "300.0/500",
+      "step variable Y step": "10.0/",
+      "tenary phase diagram": "False/False"
+    },
+    "phase status": {
+      "phase status action": "Suspended",
+      "phase status checked": "True",
+      "phase status entered phases": "LIQUID:L/BCC_A2/CEMENTITE/FCC_A1",
+      "phase status suspend all": "True"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "7",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "300.0",
+      "plot1 Checked": "True",
+      "text for phase diagram": "",
+      "x axis variable": "Mass percent C",
+      "y axis variable": "Temperature"
+    },
+    "plot2": {
+      "Tenary phase diagram": "False",
+      "axis x max": "7",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "500",
+      "plot2 Checked": "True",
+      "property output": "False",
+      "text for phase diagram": "",
+      "x axis variable": "Mass percent C",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case3-1_Fe-C_PhaseDiagram",
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.8/0.2",
+      "Elements": "AG/CU",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000"
+    },
+    "base element": "AG",
+    "calculation type": "property diagram",
+    "database name": "agcu",
+    "element composition": {
+      "AG": "0.8",
+      "CU": "0.2"
+    },
+    "element composition order": [
+      "Mole fraction CU"
+    ],
+    "fig1_mod": {
+      "XTick fonts": "Arial/12",
+      "Xaxis fonts": "Arial/16",
+      "YTick fonts": "Arial/12",
+      "Yaxis fonts": "Arial/16",
+      "fig_note": "Composition vs. Gibbs energy",
+      "graph fonts": "Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": "Arial Bold/12",
+      "legend name": "G(LIQUID)/G(BCC-A2)/G(FCC-A1#1)/G(FCC-A1-AUTO#2)/G(HCP-A3)",
+      "legend selection": "1/1/1/1/1",
+      "others": "NO/NO/NO/YES/right/top",
+      "phaseLabel fonts": "Arial/8",
+      "show axis ticks": "False",
+      "title": "NO/OpenCalphad   6.030/2021-08-08/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 1/T=1000, P=100000, N=1, X(CU)=X,",
+      "title fonts": "Arial/10",
+      "x axis": "x(CU)//",
+      "y axis": "Gibbs energy; J//"
+    },
+    "fig2_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Composition vs. Enthalpy",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "H(LIQUID)/H(BCC-A2)/H(FCC-A1#1)/H(FCC-A1-AUTO#2)/H(HCP-A3)",
+      "legend selection": "1/1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.030/2021-08-08/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 2/T=1000, P=100000, N=1, X(CU)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "x(CU)//",
+      "y axis": "Enthalpy; J//"
+    },
+    "fig3_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Composition vs. Stability",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "Q(LIQUID)/Q(BCC-A2)/Q(FCC-A1#1)/Q(FCC-A1-AUTO#2)/Q(HCP-A3)",
+      "legend selection": "1/1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.030/2021-08-08/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 3/T=1000, P=100000, N=1, X(CU)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "x(CU)//",
+      "y axis": "Stability;//"
+    },
+    "fig_note": "Composition vs. Gibbs energy/Composition vs. Enthalpy/Composition vs. Stability",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "mod output names": "fig1_mod/fig2_mod/fig3_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2/fig3",
+    "plot1": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Gibbs energy; J",
+      "y axis variable": "Gibbs energy"
+    },
+    "plot2": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot2 Checked": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Enthalpy; J",
+      "y axis variable": "Enthalpy"
+    },
+    "plot3": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot3 Checked": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Stability, ",
+      "y axis variable": "Stability"
+    },
+    "project name": "Case2-3_Ag-Cu_PropertyDiagram",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step extra variable": "Mole fraction CU",
+      "step normal": "False",
+      "step variable": "Composition",
+      "variable max": "1.0",
+      "variable min": "0.0",
+      "variable step": "0.02"
+    },
+    "reference state for components": {
+      "activate reference phase": "True",
+      "reference elements": "AG/CU",
+      "reference phases": "FCC_A1/FCC_A1",
+      "reference pressures": "1E5/1E5",
+      "reference temperaures": "*/*",
+      "set ref": "True/True"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

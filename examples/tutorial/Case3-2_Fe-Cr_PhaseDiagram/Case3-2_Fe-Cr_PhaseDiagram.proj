@@ -1,0 +1,137 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2/Eq3",
+    "Eq1": {
+      "Compositions": "0.2/0.8",
+      "Elements": "CR/FE",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "700"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "0.9/0.1",
+      "Eq2 Elem": "FE/CR",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1400"
+    },
+    "Eq3": {
+      "Eq3 Checked": "True",
+      "Eq3 Comp": "0.8/0.2",
+      "Eq3 Elem": "FE/CR",
+      "Eq3 Pressure": "100000.0",
+      "Eq3 Systemsize": "1.0",
+      "Eq3 Temp": "1900"
+    },
+    "base element": "FE",
+    "calculation type": "phase diagram",
+    "database name": "steel1",
+    "element composition": {
+      "CR": "0.2",
+      "FE": "0.8"
+    },
+    "element composition order": [
+      "Mole fraction CR"
+    ],
+    "fig3_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Binary phase diagram",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "X(LIQUID#1,CR)/X(BCC-A2#1,CR)/X(BCC-..O#2,CR)/X(FCC-A1#1,CR)/X(SIGMA,CR)",
+      "legend selection": "1/1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "phaseLabel fonts": " Arial/ 9",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.031/2021-08-22/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 3/T=Y,  P=100000, N=1, X(CR)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "Composition (mole fraction CR)//",
+      "y axis": "Temperature; K//"
+    },
+    "fig_note": "Binary phase diagram/Binary phase diagram/Binary phase diagram",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "True",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "mod output names": "fig3_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2/fig3",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "False",
+      "phasediagram after eachEq": "True",
+      "step variable X": "Mole fraction CR/Mole fraction CR/Mole fraction CR",
+      "step variable X max": "1.0/1.0/1.0",
+      "step variable X min": "0.0/0.0/0.0",
+      "step variable X step": "//",
+      "step variable Y": "Temperature",
+      "step variable Y max": "2000.0/2000.0/2000.0",
+      "step variable Y min": "300.0/300.0/300.0",
+      "step variable Y step": "10.0/10.0/10.0",
+      "tenary phase diagram": "False/False/False"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction CR",
+      "y axis variable": "Temperature"
+    },
+    "plot2": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "300.0",
+      "plot2 Checked": "True",
+      "property output": "False",
+      "x axis variable": "Mole fraction CR",
+      "y axis variable": "Temperature"
+    },
+    "plot3": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "300.0",
+      "plot3 Checked": "True",
+      "property output": "False",
+      "text for phase diagram": "0.102174/1985.85/0.0;0.392536/1504.76/0.0;0.0118841/1378.92/0.0;0.454493/987.968/0.0",
+      "x axis variable": "Mole fraction CR",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case3-2_Fe-Cr_PhaseDiagram",
+    "report": {
+      "composition added": "True",
+      "database added": "True",
+      "date added": "True",
+      "file name": "report.pdf",
+      "margin bottom": "2.5",
+      "margin left": "2.5",
+      "margin right": "2.5",
+      "margin top": "2.5",
+      "pagesize": "A4",
+      "report equilibrium": "Eq 1/Eq 2/Eq 3",
+      "report equilibrium selection": "1/1/1",
+      "report figure": "fig1/fig2/fig3/fig3_mod",
+      "report figure selection": "0/0/0/1",
+      "title": "Report of OpenCalphad Calculation"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

@@ -1,2 +1,2 @@
 # OpenCalphad-CAE-Examples
-OpenCalphad CAE Tutorial and Examples for Beginners
+OpenCalphad CAE Tutorial and Examples

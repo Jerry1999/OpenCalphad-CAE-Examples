@@ -1,0 +1,163 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.2/0.8",
+      "Elements": "CU/AG",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000"
+    },
+    "base element": "AG",
+    "calculation type": "phase diagram",
+    "database name": "agcu",
+    "element composition": {
+      "AG": "0.8",
+      "CU": "0.2"
+    },
+    "element composition order": [
+      "Mole fraction CU"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Binary phase diagram",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "X(LIQUID,CU)/X(FCC-A1#1,CU)/X(FCC-..O#2,CU)",
+      "legend selection": "1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "NO/OpenCalphad   6.031/2021-08-22/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 1/T=Y,  P=100000, N=1, X(CU)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "Composition (mole fraction CU)//",
+      "y axis": "Temperature; K//"
+    },
+    "fig2_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Composition vs. Gibbs energy",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "X(LIQUID,CU)/X(FCC-A1#1,CU)/X(FCC-..O#2,CU)",
+      "legend selection": "1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "NO/OpenCalphad   6.031/2021-08-22/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 2/T=Y,  P=100000, N=1, X(CU)=X,",
+      "title fonts": " Arial/10",
+      "x axis": "Mole fraction CU//",
+      "y axis": "Gibbs energy; J|mol//"
+    },
+    "fig3_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Activity",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend name": "AC(CU)",
+      "legend selection": "1",
+      "others": "YES/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "NO/OpenCalphad   6.031/2021-08-22/with GNUPLOT / OpenCalphad CAE 0.0.8 fig 3/T=Y,  P=100000, N=1, X(CU)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, K/600/",
+      "y axis": "Activity of CU;//"
+    },
+    "fig_note": "Binary phase diagram/Composition vs. Gibbs energy/Temperature vs. Activity",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "True",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "mod output names": "fig1_mod/fig2_mod/fig3_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2/fig3",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "False",
+      "phasediagram after eachEq": "False",
+      "step variable X": "Mole fraction CU",
+      "step variable X max": "1.0",
+      "step variable X min": "0.0",
+      "step variable X step": "",
+      "step variable Y": "Temperature",
+      "step variable Y max": "2000.0",
+      "step variable Y min": "300.0",
+      "step variable Y step": "10.0",
+      "tenary phase diagram": "False"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "axis y max": "2000.0",
+      "axis y min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis variable": "Temperature"
+    },
+    "plot2": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot2 Checked": "True",
+      "property output": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Gibbs energy; J|mol",
+      "y axis variable": "Gibbs energy"
+    },
+    "plot3": {
+      "Tenary phase diagram": "False",
+      "axis x max": "2000.0",
+      "axis x min": "300.0",
+      "plot3 Checked": "True",
+      "property output": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "CU",
+      "y axis unit": "Activity, ",
+      "y axis variable": "Activity"
+    },
+    "project name": "Case3-4_Ag-Cu_PhaseDiagram",
+    "reference state for components": {
+      "activate reference phase": "True",
+      "reference elements": "AG/CU",
+      "reference phases": "FCC_A1/FCC_A1",
+      "reference pressures": "1E5/1E5",
+      "reference temperaures": "*/*",
+      "set ref": "True/True"
+    },
+    "report": {
+      "composition added": "True",
+      "database added": "True",
+      "date added": "True",
+      "file name": "report.pdf",
+      "margin bottom": "2.5",
+      "margin left": "2.5",
+      "margin right": "2.5",
+      "margin top": "2.5",
+      "pagesize": "A4",
+      "report equilibrium": "Eq 1",
+      "report equilibrium selection": "1",
+      "report figure": "fig1/fig2/fig3/fig1_mod/fig2_mod/fig3_mod",
+      "report figure selection": "0/0/0/1/1/1",
+      "title": "Report of OpenCalphad Calculation"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

@@ -1,0 +1,152 @@
+@$ This macro is created by OpenCalphad CAE 0.0.8
+@$ 22-Aug-2021 (13:54:31.969424)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb saf2507.TDB
+CR NI FE
+
+
+@$ Eq 1
+set condition T = 1000
+set condition P = 100000
+set condition n = 1.0
+set condition x(CR)=0.25
+set condition x(NI)=0.07
+
+c e
+
+list result 4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 x(NI) 0.0 1.0 
+
+map
+
+
+@$ Plot fig1: Ternary phase diagram
+plot
+x(*,CR)
+x(*,NI)
+extra tie_line 2
+extra color FF0000 7CFF40
+extra gibbs
+Y
+title fig 1
+output fig1
+graphics 5 fig1
+text 0.04881 0.50220 0.9 0 y
+
+text n 0.38398 0.34436 0.9 0 y
+
+text n 0.44533 0.02427 0.9 0 y
+
+render
+
+
+
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+
+@$ Eq 2
+set condition T = 1200.0
+set condition P = 100000.0
+set condition n = 1.0
+set condition x(CR)=0.4
+set condition x(NI)=0.4
+
+c e
+
+list result 4
+
+list /output=Eq2.txt
+results
+4
+
+list /output=Eq2_for_table.txt
+results
+4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 x(NI) 0.0 1.0 
+
+map
+
+
+@$ Plot fig2: Ternary phase diagram
+plot
+x(*,CR)
+x(*,NI)
+extra tie_line 2
+extra color FF0000 7CFF40
+extra gibbs
+Y
+title fig 2
+output fig2
+graphics 5 fig2
+render
+
+
+
+
+
+@$ Eq 3
+set condition T = 1200.0
+set condition P = 100000.0
+set condition n = 1.0
+set condition x(CR)=0.4
+set condition x(NI)=0.4
+
+c e
+
+list result 4
+
+list /output=Eq3.txt
+results
+4
+
+list /output=Eq3_for_table.txt
+results
+4
+
+set axis 1 x(CR) 0.0 1.0 
+
+set axis 2 x(NI) 0.0 1.0 
+
+map
+
+
+@$ Plot fig3: Ternary phase diagram
+plot
+x(*,CR)
+x(*,FE)
+extra tie_line 2
+extra color FF0000 7CFF40
+extra gibbs
+Y
+title fig 3
+output fig3
+graphics 5 fig3
+render
+
+
+
+
+exit Y

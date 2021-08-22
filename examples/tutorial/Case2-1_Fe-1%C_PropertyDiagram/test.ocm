@@ -1,0 +1,62 @@
+@$ This macro is created by OpenCalphad CAE
+@$ 31-Jul-2021 (23:08:43.872273)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb steel1.TDB
+FE C
+
+
+@$ Eq 1
+set condition T = 800
+set condition P = 100000
+set condition n = 1.0
+set condition w(C)=0.01
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 T 300.0 2000.0 10.0
+
+
+
+
+step
+normal
+
+
+
+
+
+
+
+@$ Plot 1
+plot
+T
+NPM(*)
+title fig 1
+output fig1
+axis_labels X
+Temperature_K
+axis_labels Y
+Mole fraction of phase,
+render
+
+exit Y
