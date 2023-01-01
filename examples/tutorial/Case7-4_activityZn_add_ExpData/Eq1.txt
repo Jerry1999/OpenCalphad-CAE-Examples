@@ -1,0 +1,23 @@
+
+%%%%%%%%%% OC output written: 2022-07-30  21h18
+
+Output for equilibrium:   1, DEFAULT_EQUILIBRIUM          2022.07.30
+Conditions .................................................:
+  1:T=1073.15, 2:P=100000, 3:N=1, 4:X(ZN)=.01
+ Degrees of freedom are   0
+
+Some global data, reference state SER ......................:
+T=   1073.15 K (   800.00 C), P=  1.0000E+05 Pa, V=  0.0000E+00 m3
+N=   1.0000E+00 moles, B=   2.7366E+01 g, RT=   8.9227E+03 J/mol
+G= -4.87670E+04 J, G/N=-4.8767E+04 J/mol, H= 3.3346E+04 J, S= 7.652E+01 J/K
+
+Some data for components ...................................:
+Component name    Moles      Mass-fr  Chem.pot/RT  Activities  Ref.state
+AL                9.9000E-01  0.97611 -1.8779E-01  8.2879E-01  FCC_A1          
+ZN                1.0000E-02  0.02389 -3.8555E+00  2.1163E-02  LIQUID          
+
+Some data for phases .......................................:
+Name                Status Mass       Volume    Form.Units Cmp/FU dGm/RT  Comp:
+LIQUID#1................ E  2.737E-02  0.00E+00  1.00E+00    1.00  0.00E+00  W:
+ AL     9.76105E-01  ZN     2.38945E-02
+

@@ -1,0 +1,71 @@
+@$ This macro is created by OpenCalphad CAE 0.0.9
+@$ 15-Jul-2022 (23:02:02.252258)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb steel1.TDB
+C CR MO SI V FE
+
+
+set st ph *=sus
+set st ph FCC_A1=ent 0
+
+@$ Eq 1
+set condition T = 1200
+set condition P = 100000
+set condition n = 1.0
+set condition w(C)=0.009
+set condition w(CR)=0.045
+set condition w(MO)=0.1
+set condition w(SI)=0.001
+set condition w(V)=0.009
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 T 300.0 1600 10.0
+
+
+
+
+step
+normal
+
+
+
+
+
+
+
+@$ Plot 1
+ent sym function1=W(FCC_A1,C)*W(FCC_A1,V);
+
+plot
+T
+function1
+title fig 1
+output fig1
+axis_labels X
+Temperature_K
+axis_labels Y
+SP
+render
+
+exit Y

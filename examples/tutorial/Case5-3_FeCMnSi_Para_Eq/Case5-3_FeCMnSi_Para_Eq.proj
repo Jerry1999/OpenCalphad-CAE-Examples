@@ -1,0 +1,73 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.1/1.5/0.3/98.1",
+      "Elements": "C/MN/SI/FE",
+      "Eq1 phase status activated": "True",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000.0"
+    },
+    "advanced application": {
+      "calculation": "Para-Equilibrium",
+      "fast diffusing element": "C",
+      "growing phase": "BCC",
+      "matrix phase": "FCC",
+      "property diagram after eachEq": "False",
+      "step paraEq": "True",
+      "step variable": "Temperature",
+      "variable max": "1200",
+      "variable min": "800",
+      "variable step": "2.0"
+    },
+    "base element": "FE",
+    "calculation type": "advanced application",
+    "database name": "iron4cd",
+    "element composition": {
+      "C": "0.1",
+      "FE": "98.1",
+      "MN": "1.5",
+      "SI": "0.3"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent MN",
+      "Mass percent SI"
+    ],
+    "fig_note": "Composition vs. Temperature",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase status": {
+      "phase status action": "Suspended",
+      "phase status checked": "True",
+      "phase status entered phases": "BCC_A2/FCC_A1",
+      "phase status suspend all": "True"
+    },
+    "plot1": {
+      "axis x max": "100.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mass percent C",
+      "y axis component": "",
+      "y axis extra variable": "",
+      "y axis unit": "",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case5-3_FeCMnSi_Para_Eq",
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

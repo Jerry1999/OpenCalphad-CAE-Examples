@@ -1,0 +1,87 @@
+@$ This macro is created by OpenCalphad CAE 0.0.9
+@$ 28-Jul-2022 (18:26:07.503186)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb steel1.TDB
+FE CR
+
+
+set st ph *=sus
+set st ph LIQUID BCC_A2 FCC_A1 SIGMA=ent 0
+
+set ref FE BCC_A2 * 1E5
+set ref CR BCC_A2 * 1E5
+
+@$ Eq 1
+set condition T = 1000.0
+set condition P = 100000
+set condition n = 1.0
+set condition x(CR)=0.4
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 x(CR) 0.0 1.0 0.02
+
+
+
+
+step
+separate
+
+
+
+
+
+
+
+@$ Plot 1
+plot
+x(CR)
+GM(*)
+title fig 1
+output fig1
+axis_labels X
+x(CR)
+axis_labels Y
+Gibbs energy; J|mol
+render
+
+
+c e
+
+show mu(FE)
+
+show mu(CR)
+
+
+@$start new potential
+set condition x(CR)=0.395072
+c e
+
+show mu(FE)
+
+show mu(CR)
+
+@$end new potential
+
+
+exit Y

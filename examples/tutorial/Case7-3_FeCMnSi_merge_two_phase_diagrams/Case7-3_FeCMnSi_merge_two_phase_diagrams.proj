@@ -1,0 +1,85 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2",
+    "Eq1": {
+      "Compositions": "0.1/1.5/0.3/98.1",
+      "Elements": "C/MN/SI/FE",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000.0"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "0.1/2.0/0.3/97.6",
+      "Eq2 Elem": "C/MN/SI/FE",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1000.0"
+    },
+    "base element": "FE",
+    "calculation type": "phase diagram",
+    "database name": "iron4cd",
+    "element composition": {
+      "C": "0.1",
+      "FE": "98.1",
+      "MN": "1.5",
+      "SI": "0.3"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent MN",
+      "Mass percent SI"
+    ],
+    "fig_note": "Binary phase diagram/Binary phase diagram",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "True",
+      "phasediagram after eachEq": "True",
+      "step variable X": "Mass percent C/Mass percent C",
+      "step variable X max": "2/2",
+      "step variable X min": "0.0/0.0",
+      "step variable X step": "/",
+      "step variable Y": "Temperature",
+      "step variable Y max": "1200/1200",
+      "step variable Y min": "800/800",
+      "step variable Y step": "10.0/10.0",
+      "tenary phase diagram": "False/False"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "2",
+      "axis x min": "0.0",
+      "axis y max": "1200",
+      "axis y min": "800",
+      "plot1 Checked": "True",
+      "x axis variable": "Mass percent C",
+      "y axis variable": "Temperature"
+    },
+    "plot2": {
+      "Tenary phase diagram": "False",
+      "axis x max": "2",
+      "axis x min": "0.0",
+      "axis y max": "1200",
+      "axis y min": "800",
+      "plot2 Checked": "True",
+      "property output": "False",
+      "x axis variable": "Mass percent C",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case7-3_FeCMnSi_merge_two_phase_diagrams",
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

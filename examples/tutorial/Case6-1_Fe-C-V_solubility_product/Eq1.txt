@@ -1,0 +1,33 @@
+
+%%%%%%%%%% OC output written: 2022-07-15  23h02
+
+Output for equilibrium:   1, DEFAULT_EQUILIBRIUM          2022.07.15
+Conditions .................................................:
+  1:T=1200, 2:P=100000, 3:N=1, 4:W(C)=.009, 5:W(CR)=.045, 6:W(MO)=0.1, 
+    7:W(SI)=.001, 8:W(V)=.009
+ Degrees of freedom are   0
+
+Some global data, reference state SER ......................:
+T=   1200.00 K (   926.85 C), P=  1.0000E+05 Pa, V=  6.9581E-06 m3
+N=   1.0000E+00 moles, B=   5.6057E+01 g, RT=   9.9774E+03 J/mol
+G= -5.92185E+04 J, G/N=-5.9218E+04 J/mol, H= 3.4678E+04 J, S= 7.825E+01 J/K
+
+Some data for components ...................................:
+Component name    Moles      Mass-fr  Chem.pot/RT  Activities  Ref.state
+C                 4.2005E-02  0.00900 -4.1289E+00  1.6100E-02  SER (default)   
+CR                4.8515E-02  0.04500 -7.1659E+00  7.7245E-04  SER (default)   
+FE                8.3915E-01  0.83600 -5.7819E+00  3.0828E-03  SER (default)   
+MO                5.8430E-02  0.10000 -6.4907E+00  1.5175E-03  SER (default)   
+SI                1.9960E-03  0.00100 -2.0015E+01  2.0313E-09  SER (default)   
+V                 9.9040E-03  0.00900 -1.4444E+01  5.3337E-07  SER (default)   
+
+Some data for phases .......................................:
+Name                Status Mass       Volume    Form.Units Cmp/FU dGm/RT  Comp:
+FCC_A1#1................ E  5.321E-02  6.90E-06  9.26E-01    1.02  0.00E+00  W:
+ FE     8.80513E-01  CR     4.63953E-02  SI     1.05352E-03  V      5.67952E-04
+ MO     6.73263E-02  C      4.14410E-03
+
+FCC_A1_AUTO#2........... E  2.848E-03  5.52E-08  3.17E-02    1.75  0.00E+00  W:
+ MO     7.10476E-01  C      9.97278E-02  FE     4.32068E-03  SI     6.54152E-10
+ V      1.66545E-01  CR     1.89308E-02
+

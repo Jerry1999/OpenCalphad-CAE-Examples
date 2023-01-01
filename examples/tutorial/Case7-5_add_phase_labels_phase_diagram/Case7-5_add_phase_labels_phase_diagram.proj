@@ -1,0 +1,63 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.5/0.5",
+      "Elements": "AL/CU",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "800.0"
+    },
+    "base element": "AL",
+    "calculation type": "phase diagram",
+    "database name": "cost507R",
+    "element composition": {
+      "AL": "0.99",
+      "CU": "0.01"
+    },
+    "element composition order": [
+      "Mole fraction CU"
+    ],
+    "fig_note": "Binary phase diagram",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase diagram": {
+      "Reinitiate after first map calculation": "False",
+      "phasediagram after eachEq": "False",
+      "step variable X": "Mole fraction CU",
+      "step variable X max": "1.0",
+      "step variable X min": "0.0",
+      "step variable X step": "",
+      "step variable Y": "Temperature",
+      "step variable Y max": "3000.0",
+      "step variable Y min": "300.0",
+      "step variable Y step": "10.0",
+      "tenary phase diagram": "False"
+    },
+    "plot1": {
+      "Tenary phase diagram": "False",
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "axis y max": "3000.0",
+      "axis y min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction CU",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case7-5_add_phase_labels_phase_diagram",
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

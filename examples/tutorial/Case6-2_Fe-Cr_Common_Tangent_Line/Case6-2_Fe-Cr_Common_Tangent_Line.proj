@@ -1,0 +1,94 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.6/0.4",
+      "Elements": "FE/CR",
+      "Eq1 phase status activated": "True",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000.0"
+    },
+    "MU_values": " MU(FE)= -3.5211239E+03/ MU(CR)= -2.1798026E+03/ MU(FE)= -1.9937722E+03/ MU(CR)= -3.9181182E+03",
+    "base element": "FE",
+    "calculation type": "property diagram",
+    "database name": "steel1",
+    "element composition": {
+      "CR": "0.4",
+      "FE": "0.6"
+    },
+    "element composition order": [
+      "Mole fraction CR"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Composition vs. Gibbs energy",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "GM(LIQUID)/GM(BCC-A2)/GM(FCC-A1)/GM(SIGMA)",
+      "legend selection": "1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT / OpenCalphad CAE 0.0.9 fig 1/T=1000, P=100000, N=1, X(CR)=X,",
+      "title fonts": " Arial/10 ",
+      "x axis": "x(CR)//",
+      "y axis": "Gibbs energy; J|mol/-4000/0"
+    },
+    "fig_note": "Composition vs. Gibbs energy",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "mod output names": "fig1_mod",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase status": {
+      "phase status action": "Suspended",
+      "phase status checked": "True",
+      "phase status entered phases": "LIQUID:L/BCC_A2/FCC_A1/SIGMA",
+      "phase status suspend all": "True"
+    },
+    "plot1": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction CR",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Gibbs energy; J|mol",
+      "y axis variable": "Gibbs energy"
+    },
+    "project name": "Case6-2_Fe-Cr_Common_Tangent_Line",
+    "property diagram": {
+      "common tangent line": "True",
+      "property diagram after eachEq": "False",
+      "step extra variable": "Mole fraction CR",
+      "step normal": "False",
+      "step variable": "Composition",
+      "variable max": "1.0",
+      "variable min": "0.0",
+      "variable step": "0.02"
+    },
+    "reference state for components": {
+      "activate reference phase": "True",
+      "reference elements": "FE/CR",
+      "reference phases": "BCC_A2/BCC_A2",
+      "reference pressures": "1E5/1E5",
+      "reference temperatures": "*/*",
+      "set ref": "True/True"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

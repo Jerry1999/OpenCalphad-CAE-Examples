@@ -1,0 +1,112 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.9/4.5/10.0/0.1/0.9/83.6",
+      "Elements": "C/CR/MO/SI/V/FE",
+      "Eq1 phase status activated": "True",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1200"
+    },
+    "base element": "FE",
+    "calculation type": "property diagram",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.9",
+      "CR": "4.5",
+      "FE": "83.6",
+      "MO": "10.0",
+      "SI": "0.1",
+      "V": "0.9"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent CR",
+      "Mass percent MO",
+      "Mass percent SI",
+      "Mass percent V"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Function1",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend name": "FUNCTION1",
+      "legend selection": "1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.054//with GNUPLOT / OpenCalphad CAE 0.0.9 fig 1/T=X,  P=100000, N=1, W(C)=.009, W(CR)=.045, W(MO)=0.1, W(SI)=.001, W(V)=.009",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, K//",
+      "y axis": "SP//"
+    },
+    "fig_note": "Temperature vs. Function1",
+    "function list": "Function1",
+    "function1": {
+      "function1 Checked": "True",
+      "input function expression": "P1*P2",
+      "output name": "SP",
+      "true function expression": "W(FCC_A1,C)*W(FCC_A1,V)"
+    },
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "True"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig1_mod",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase status": {
+      "phase status action": "Suspended",
+      "phase status checked": "True",
+      "phase status entered phases": "FCC_A1",
+      "phase status suspend all": "True"
+    },
+    "plot1": {
+      "axis x max": "1600",
+      "axis x min": "300.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "",
+      "y axis unit": "SP",
+      "y axis variable": "Function1"
+    },
+    "project name": "Case6-1_Fe-C-V_solubility_product",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step normal": "True",
+      "step variable": "Temperature",
+      "variable max": "1600",
+      "variable min": "300.0",
+      "variable step": "10.0"
+    },
+    "quantity list": "Quantity1/Quantity2",
+    "quantity1": {
+      "quantity1 Checked": "True",
+      "y axis component": "C",
+      "y axis extra variable": "FCC_A1",
+      "y axis unit": "Mass fraction",
+      "y axis variable": "Composition of phase"
+    },
+    "quantity2": {
+      "quantity2 Checked": "True",
+      "y axis component": "V",
+      "y axis extra variable": "FCC_A1",
+      "y axis unit": "Mass fraction",
+      "y axis variable": "Composition of phase"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

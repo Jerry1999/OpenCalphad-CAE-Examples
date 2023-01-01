@@ -1,0 +1,73 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.1/1.5/0.3/98.1",
+      "Elements": "C/MN/SI/FE",
+      "Eq1 phase status activated": "True",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1000.0"
+    },
+    "advanced application": {
+      "calculation": "Tzero",
+      "growing phase": "BCC",
+      "matrix phase": "FCC",
+      "property diagram after eachEq": "False",
+      "step Tzero": "True",
+      "step extra variable": "Mass percent C",
+      "step variable": "Composition",
+      "variable max": "2.0",
+      "variable min": "0.0",
+      "variable step": "0.2"
+    },
+    "base element": "FE",
+    "calculation type": "advanced application",
+    "database name": "iron4cd",
+    "element composition": {
+      "C": "0.1",
+      "FE": "98.1",
+      "MN": "1.5",
+      "SI": "0.3"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent MN",
+      "Mass percent SI"
+    ],
+    "fig_note": "Composition vs. Temperature",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "output names": "fig1",
+    "phase status": {
+      "phase status action": "Suspended",
+      "phase status checked": "True",
+      "phase status entered phases": "BCC_A2/FCC_A1",
+      "phase status suspend all": "True"
+    },
+    "plot1": {
+      "axis x max": "2.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Composition",
+      "y axis component": "",
+      "y axis extra variable": "",
+      "y axis unit": "",
+      "y axis variable": "Temperature"
+    },
+    "project name": "Case5-4_FeCMnSi_Tzero",
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "0.99/0.01",
+      "Elements": "AL/ZN",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "800"
+    },
+    "base element": "AL",
+    "calculation type": "property diagram",
+    "database name": "alzn_mey",
+    "element composition": {
+      "AL": "0.99",
+      "ZN": "0.01"
+    },
+    "element composition order": [
+      "Mole fraction ZN"
+    ],
+    "fig_note": "Composition vs. Activity",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mole fraction",
+    "opencalphad database": "False",
+    "output names": "fig1",
+    "plot1": {
+      "axis x max": "1.0",
+      "axis x min": "0.0",
+      "plot1 Checked": "True",
+      "x axis variable": "Mole fraction ZN",
+      "y axis extra variable": "ZN",
+      "y axis unit": "Activity, ",
+      "y axis variable": "Activity"
+    },
+    "project name": "Case7-4_activityZn_add_ExpData",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step extra variable": "Mole fraction ZN",
+      "step normal": "True",
+      "step variable": "Composition",
+      "variable max": "1.0",
+      "variable min": "0.0",
+      "variable step": "0.02"
+    },
+    "reference state for components": {
+      "activate reference phase": "True",
+      "reference elements": "AL/ZN",
+      "reference phases": "FCC_A1/LIQUID",
+      "reference pressures": "1E5/1E5",
+      "reference temperatures": "*/*",
+      "set ref": "True/True"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Celsius"
+  }
+}

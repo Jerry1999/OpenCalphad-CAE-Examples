@@ -1,0 +1,71 @@
+@$ This macro is created by OpenCalphad CAE 0.0.9
+@$ 30-Jul-2022 (21:12:45.185600)
+
+@$ set echo
+set echo
+Y
+
+@$ set log
+set log
+test
+
+@$ read database
+read tdb alzn_mey.TDB
+AL ZN
+
+
+set ref AL FCC_A1 * 1E5
+set ref ZN LIQUID * 1E5
+
+@$ Eq 1
+set condition T = 1073.15
+set condition P = 100000
+set condition n = 1.0
+set condition x(ZN)=0.01
+
+c e
+
+list result 4
+
+
+list /output=Eq1.txt
+results
+4
+
+list /output=Eq1_for_table.txt
+results
+4
+
+set axis 1 x(ZN) 0.0 1.0 0.02
+
+
+
+
+step
+normal
+
+
+
+
+
+
+
+@$ Plot 1
+list
+excel_csv_file
+x(ZN)
+AC(ZN)
+fig1_list_csv
+
+plot
+x(ZN)
+AC(ZN)
+title fig 1
+output fig1
+axis_labels X
+x(ZN)
+axis_labels Y
+Activity of ZN, 
+render
+
+exit Y

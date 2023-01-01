@@ -1,0 +1,172 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1",
+    "Eq number before Output": "Eq 1",
+    "Eq1": {
+      "Compositions": "90.0/2.0/2.0/6.0",
+      "Elements": "AL/CU/MG/ZN",
+      "Eq1 phase status activated": "False",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "525.0"
+    },
+    "base element": "AL",
+    "calculation type": "property diagram",
+    "database name": "cost507R",
+    "element composition": {
+      "AL": "90.0",
+      "CU": "2.0",
+      "MG": "2.0",
+      "ZN": "6.0"
+    },
+    "element composition order": [
+      "Mass percent CU",
+      "Mass percent MG",
+      "Mass percent ZN"
+    ],
+    "fig1_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Amount of phase",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "BPW(LIQUID)/BPW(ALCU-THETA)/BPW(ALMG-BETA)/BPW(FCC-A1#1)/BPW(MGZN2)",
+      "legend selection": "1/1/1/1/1",
+      "others": "NO/NO/NO/NO/right/top",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT / OpenCalphad CAE 0.0.9 fig 1/T=X,  P=100000, N=1, W(CU)=.02, W(MG)=.02, W(ZN)=.06",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, \u00b0C//",
+      "y axis": "Mass fraction of phase;//"
+    },
+    "fig2_mod": {
+      "XTick fonts": " Arial/16",
+      "Xaxis fonts": " Arial/16",
+      "YTick fonts": " Arial/16",
+      "Yaxis fonts": " Arial/16",
+      "fig_note": "Temperature vs. Driving force",
+      "graph fonts": " Arial/16",
+      "graph pixel": "840/700",
+      "legend fonts": " Arial/12",
+      "legend name": "DGM(LIQUID)/DGM(AL12MG17)/DGM(AL1LI1)/DGM(AL1TI1)/DGM(AL5FE4)/DGM(ALCU-DELTA)/DGM(ALCU-EPSILON)/DGM(ALCU-ETA)/DGM(ALCU-PRIME)/DGM(ALCU-THETA)/DGM(ALCU-ZETA)/DGM(ALMG-BETA)/DGM(ALMG-DZETA)/DGM(ALMG-UPSILON)/DGM(ALTI3)/DGM(BCC-A2)/DGM(BCC-B2)/DGM(BCT-A5)/DGM(CBCC-A12)/DGM(CUB-A13)/DGM(CUMG2)/DGM(CUZN-EPS)/DGM(CUZN-GAMMA)/DGM(DIAMOND-A4)/DGM(FCC-A1#1)/DGM(FCC-A1-AUTO#2)/DGM(GAMMA-D83)/DGM(GAMMA-H)/DGM(HCP-A3)/DGM(LAVES-C15)/DGM(MG1ZN1)/DGM(MG24Y5)/DGM(MG2ZN11)/DGM(MG2ZN3)/DGM(MG7ZN3)/DGM(MGY-GAMMA)/DGM(MGZN2)",
+      "legend selection": "1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1",
+      "others": "NO/NO/NO/YES/right/bottom",
+      "show axis ticks": "False",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT / OpenCalphad CAE 0.0.9 fig 2/T=X,  P=100000, N=1, W(CU)=.02, W(MG)=.02, W(ZN)=.06",
+      "title fonts": " Arial/10 ",
+      "x axis": "Temperature, \u00b0C//",
+      "y axis": "Driving force; -|mol//"
+    },
+    "fig3_mod": {
+      "fig_note": "Temperature vs. Driving force",
+      "graph pixel": "840/700",
+      "legend name": "DGM(ALCU-THETA)",
+      "legend selection": "1",
+      "others": "NO/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT fig 3/T=X,  P=100000, N=1, W(CU)=.02, W(MG)=.02, W(ZN)=.06",
+      "x axis": "Temperature, \u00b0C//",
+      "y axis": "Driving force of ALCU-THETA; -|mol//"
+    },
+    "fig4_mod": {
+      "fig_note": "Temperature vs. Driving force",
+      "graph pixel": "840/700",
+      "legend name": "DGM(ALMG-BETA)",
+      "legend selection": "1",
+      "others": "NO/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT fig 4/T=X,  P=100000, N=1, W(CU)=.02, W(MG)=.02, W(ZN)=.06",
+      "x axis": "Temperature, \u00b0C//",
+      "y axis": "Driving force of ALMG-BETA; -|mol//"
+    },
+    "fig5_mod": {
+      "fig_note": "Temperature vs. Driving force",
+      "graph pixel": "840/700",
+      "legend name": "DGM(MGZN2)",
+      "legend selection": "1",
+      "others": "NO/NO/NO/NO/right/top",
+      "title": "YES/OpenCalphad   6.055//with GNUPLOT fig 5/T=X,  P=100000, N=1, W(CU)=.02, W(MG)=.02, W(ZN)=.06",
+      "x axis": "Temperature, \u00b0C//",
+      "y axis": "Driving force of MGZN2; -|mol//"
+    },
+    "fig_note": "Temperature vs. Amount of phase/Temperature vs. Driving force/Temperature vs. Driving force/Temperature vs. Driving force/Temperature vs. Driving force",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "mod output names": "fig1_mod/fig2_mod/fig3_mod/fig4_mod/fig5_mod",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2/fig3/fig4/fig5",
+    "phase status": {
+      "phase status action": "Dormant",
+      "phase status checked": "True",
+      "phase status dormant phases": "LIQUID:L/AL12MG17/AL1LI1/AL1TI1/AL5FE4/ALCU_DELTA/ALCU_EPSILON/ALCU_ETA/ALCU_PRIME/ALCU_THETA/ALCU_ZETA/ALMG_BETA/ALMG_DZETA/ALMG_UPSILON/ALTI3/BCC_A2/BCC_B2/BCT_A5/CBCC_A12/CUB_A13/CUMG2/CUZN_EPS/CUZN_GAMMA/DIAMOND_A4/GAMMA_D83/GAMMA_H/HCP_A3/LAVES_C15/MG1ZN1/MG24Y5/MG2ZN11/MG2ZN3/MG7ZN3/MGY_GAMMA/MGZN2",
+      "phase status suspend all": "False",
+      "phase status suspended phases": ""
+    },
+    "plot1": {
+      "axis x max": "800",
+      "axis x min": "0",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mass fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "plot2": {
+      "axis x max": "800",
+      "axis x min": "0",
+      "plot2 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Driving force; -|mol",
+      "y axis variable": "Driving force"
+    },
+    "plot3": {
+      "axis x max": "800",
+      "axis x min": "0",
+      "plot3 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "ALCU_THETA",
+      "y axis unit": "Driving force; -|mol",
+      "y axis variable": "Driving force"
+    },
+    "plot4": {
+      "axis x max": "800",
+      "axis x min": "0",
+      "plot4 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "ALMG_BETA",
+      "y axis unit": "Driving force; -|mol",
+      "y axis variable": "Driving force"
+    },
+    "plot5": {
+      "axis x max": "800",
+      "axis x min": "0",
+      "plot5 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "MGZN2",
+      "y axis unit": "Driving force; -|mol",
+      "y axis variable": "Driving force"
+    },
+    "project name": "Case2-5_AlCuMgZn_PropertyDiagram_Normal",
+    "property diagram": {
+      "property diagram after eachEq": "False",
+      "step normal": "True",
+      "step variable": "Temperature",
+      "variable max": "800",
+      "variable min": "0",
+      "variable step": ""
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Celsius"
+  }
+}

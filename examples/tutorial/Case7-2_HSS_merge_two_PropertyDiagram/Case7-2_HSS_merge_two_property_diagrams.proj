@@ -1,0 +1,83 @@
+{
+  "Macro Build": {
+    "Eq list": "Eq1/Eq2",
+    "Eq1": {
+      "Compositions": "0.9/4.5/10.0/0.1/0.9/83.6",
+      "Elements": "C/CR/MO/SI/V/FE",
+      "Pressure": "100000",
+      "Systemsize": "1.0",
+      "Temperature": "1200"
+    },
+    "Eq2": {
+      "Eq2 Checked": "True",
+      "Eq2 Comp": "0.6/4.5/10.0/0.1/0.9/83.9",
+      "Eq2 Elem": "C/CR/MO/SI/V/FE",
+      "Eq2 Pressure": "100000.0",
+      "Eq2 Systemsize": "1.0",
+      "Eq2 Temp": "1200"
+    },
+    "base element": "FE",
+    "calculation type": "property diagram",
+    "database name": "steel1",
+    "element composition": {
+      "C": "0.9",
+      "CR": "4.5",
+      "FE": "83.6",
+      "MO": "10.0",
+      "SI": "0.1",
+      "V": "0.9"
+    },
+    "element composition order": [
+      "Mass percent C",
+      "Mass percent CR",
+      "Mass percent MO",
+      "Mass percent SI",
+      "Mass percent V"
+    ],
+    "fig_note": "Temperature vs. Amount of phase/Temperature vs. Amount of phase",
+    "main code name": "test.ocm",
+    "main tabwidget": {
+      "Comp": "True",
+      "Cond": "True",
+      "Exec": "True",
+      "Fig": "True",
+      "Outp": "True",
+      "Report": "False",
+      "Table": "False"
+    },
+    "mass unit": "Mass percent",
+    "opencalphad database": "True",
+    "output names": "fig1/fig2",
+    "plot1": {
+      "axis x max": "2000.0",
+      "axis x min": "800",
+      "plot1 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mass fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "plot2": {
+      "axis x max": "2000.0",
+      "axis x min": "800",
+      "plot2 Checked": "True",
+      "x axis variable": "Temperature",
+      "y axis extra variable": "all phases",
+      "y axis unit": "Mass fraction of phase",
+      "y axis variable": "Amount of phase"
+    },
+    "project name": "Case7-2_HSS_merge_two_property_diagrams",
+    "property diagram": {
+      "Reinitiate after first map calculation": "True",
+      "property diagram after eachEq": "True",
+      "step extra variable": "Mass percent C/Mass percent C",
+      "step normal": "True",
+      "step variable": "Temperature/Temperature",
+      "variable max": "2000.0/2000.0",
+      "variable min": "800/800",
+      "variable step": "10.0/10.0"
+    },
+    "show gnuplot during running macro": "True",
+    "temperature unit": "Kelvin"
+  }
+}
